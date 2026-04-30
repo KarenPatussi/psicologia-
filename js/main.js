@@ -1522,7 +1522,16 @@
             _replyto: data.email,
             _captcha: "false",
             _honey: "",
-            _template: "table"
+            _template: "table",
+            _autoresponse: [
+              "Olá! Recebemos sua mensagem 🌿",
+              "",
+              "Em breve você terá retorno com atenção.",
+              "",
+              "Se preferir, também pode falar direto pelo WhatsApp: +55 47 99668-0603",
+              "",
+              "— Karen Patussi"
+            ].join("\n")
           };
 
           try {
